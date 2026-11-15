@@ -8,7 +8,7 @@ cask "chargespeedviewer" do
   homepage "https://github.com/KrystofS/charge-speed-viewer"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ChargeSpeedViewer.app"
 
